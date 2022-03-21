@@ -1,4 +1,4 @@
-# 🅿️ Titel
+# 🅿️ Coding the Curbs
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## 📙 Inhoudsopgave
@@ -11,7 +11,7 @@
   * [Licentie](#licentie)
 
 ## Beschrijving
-[🌐 Live Versie](https://testassistent.student.fdnd.nl/)
+[🌐 Live Versie](https://m4tthys123.github.io/keep-users-in-control-coding-the-curbs/)
 
 
 ## Kenmerken
