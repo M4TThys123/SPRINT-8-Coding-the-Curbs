@@ -122,6 +122,24 @@ img {
 /*=============== HEADER ===============*/
 header {
     background-color: var(--blauw);
+    height: 84px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+  color: var(--container-color);
+}
+
+h1{
+  color: var(--container-color);
+  margin-left: 1em;
+  font-size: larger;
+}
+
+li{
+  margin: .5em;
 }
 
 /*========== NAV ==========*/
@@ -131,13 +149,37 @@ main {
   padding: 1em;
 }
 
+article{
+  max-width: 1200px;
+  margin: auto;
+}
+
 /* Card */
+.card-wrapper{
+  margin-top: var(--mb-1-5);
+}
+.card{
+  border: 1px solid #c6c6c6;
+  border-radius: 2px;
+  margin-bottom: var(--mb-1-5);
+}
+
 .title{
-    margin-top: var(--mb-0-5);;
+    margin-top: var(--mb-0-5);
+  }
+#naam{
+  color: var(--blauw);
+  margin-bottom: var(--mb-0-5);
 }
 .title span{
  margin-bottom: var(--mb-1);
+ display: flex;
 }
+
+#locatie{
+  margin-left: var(--mb-0-5);
+}
+
 
 #omschrijving{
     margin-bottom: var(--mb-1);
@@ -145,6 +187,22 @@ main {
 
 .card-information li{
     padding: 1em;
+}
+
+.card-discription{
+  padding: var(--mb-1);
+}
+
+.card-footer{
+  background-color: #524dd0;
+  width: 14em;
+  border-radius: 2em;
+  Padding: 0.7em 3em;
+  color: var(--container-color);
+  text-align: center;
+}
+h4{
+  margin-bottom: var(--mb-0-5);
 }
 
 /*=============== FOOTER ===============*/

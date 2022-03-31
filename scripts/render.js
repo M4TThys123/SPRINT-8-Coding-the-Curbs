@@ -1,4 +1,4 @@
-const smartzoneTable = document.querySelector('.card');
+const smartzoneTable = document.querySelector('.card-wapper');
 
 async function renderSmartzones(smartzones) {
       smartzones.forEach(smartzone => {
@@ -19,7 +19,7 @@ async function renderSmartzones(smartzones) {
                     <p id="omschrijving">${smartzone.description}</p>
 
                     <div class="card-information">
-                        <ul>
+                        <ul class="flex">
                             <li>
                                 <h4>Grootte:</h4>
                                 <span id="grootte">${smartzone.size}</span>
