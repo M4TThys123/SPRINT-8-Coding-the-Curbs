@@ -38,7 +38,7 @@ Installeren met de Terminal
 
 ```
 git clone https://github.com/M4TThys123/keep-users-in-control-coding-the-curbs.git
-cd saml-zelftestapp-campaign-website
+cd keep-users-in-control-coding-the-curbs
 ```
 
 Installeren met SSH
